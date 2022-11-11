@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "comentaries",
+  "info": {
+    "singularName": "comentary",
+    "pluralName": "comentaries",
+    "displayName": "comentary",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "comentario": {
+      "type": "text"
+    },
+    "posts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::post.post",
+      "mappedBy": "comentary"
+    },
+    "users_permissions_user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "comentary"
+    }
+  }
+}

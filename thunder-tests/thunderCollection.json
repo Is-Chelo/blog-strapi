@@ -1,0 +1,31 @@
+[
+  {
+    "_id": "184112e6-4c40-4ddf-b705-3eba8bf1079c",
+    "colName": "Blog",
+    "created": "2022-11-11T20:44:42.961Z",
+    "sortNum": 10000,
+    "folders": [
+      {
+        "_id": "a1de25a6-d613-43e0-972e-196d9767b93c",
+        "name": "user",
+        "containerId": "",
+        "created": "2022-11-11T20:44:51.318Z",
+        "sortNum": 10000
+      },
+      {
+        "_id": "a823cf47-792a-49dd-92ca-cfb652e5196b",
+        "name": "posts",
+        "containerId": "",
+        "created": "2022-11-11T21:56:50.746Z",
+        "sortNum": 20000
+      },
+      {
+        "_id": "79cd007d-f9f2-47cc-bd00-ed4f4a7a9463",
+        "name": "comentarios",
+        "containerId": "",
+        "created": "2022-11-11T22:26:45.920Z",
+        "sortNum": 30000
+      }
+    ]
+  }
+]

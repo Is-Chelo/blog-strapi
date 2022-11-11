@@ -1,0 +1,291 @@
+[
+  {
+    "_id": "6d1bdf31-9fcd-4dcf-9676-41e38380337f",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:1337/api/users",
+    "url": "http://localhost:1337/api/users",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-11-11T20:47:25.696Z",
+    "modified": "2022-11-11T21:14:53.724Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "13390946-b795-465c-9e42-fa8513c57ed9",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:1337api/auth/auth0/callback",
+    "url": "http://localhost:1337api/auth/auth0/callback",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-11-11T21:14:37.469Z",
+    "modified": "2022-11-11T21:14:39.730Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "0b60f8ed-2f51-4a99-88bb-70cbd588aa76",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:1337/api/auth/auth0/callback",
+    "url": "http://localhost:1337/api/auth/auth0/callback",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-11-11T21:23:49.870Z",
+    "modified": "2022-11-11T21:28:30.171Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "b44b64fb-763d-4dd7-a3aa-26e2bb6bfad7",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:1337/sesion",
+    "url": "http://localhost:1337/sesion",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-11-11T21:28:36.822Z",
+    "modified": "2022-11-11T21:28:36.837Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "8f433f1d-12b9-443d-bcdb-5932c56d3d2c",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:1337/auth/local",
+    "url": "http://localhost:1337/auth/local",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-11-11T21:35:54.888Z",
+    "modified": "2022-11-11T21:38:34.420Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "2a76b315-12f0-48bb-a973-aab4ea32d5c2",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:1337/auth/",
+    "url": "http://localhost:1337/auth/",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-11-11T21:38:38.603Z",
+    "modified": "2022-11-11T21:38:42.957Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "98fb4423-f002-4cc3-984b-b20139f3f9de",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:1337/api/auth/local",
+    "url": "http://localhost:1337/api/auth/local",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-11-11T21:48:11.497Z",
+    "modified": "2022-11-11T21:49:20.050Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"identifier\":\"profe@profe.com\",\n    \"password\":\"Profe123\"\n}",
+      "form": []
+    },
+    "auth": {
+      "type": "basic"
+    },
+    "tests": []
+  },
+  {
+    "_id": "6e46429a-83e1-4fc4-a028-2196a5b1f5be",
+    "colId": "history",
+    "containerId": "",
+    "name": "{{url}}/api/auth/local",
+    "url": "{{url}}/api/auth/local",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-11-11T21:55:51.843Z",
+    "modified": "2022-11-11T21:56:04.574Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"identifier\":\"profe@profe.com\",\n    \"password\":\"Profe123\"\n}",
+      "form": []
+    },
+    "auth": {
+      "type": "basic"
+    },
+    "tests": []
+  },
+  {
+    "_id": "fe56b2e1-e7fe-4a35-8757-a37577df7509",
+    "colId": "history",
+    "containerId": "",
+    "name": "{{url}}/api/posts",
+    "url": "{{url}}/api/posts",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-11-11T21:57:15.480Z",
+    "modified": "2022-11-11T22:24:54.079Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "feb0e35d-8046-4648-8f4f-52ca6c188649",
+    "colId": "history",
+    "containerId": "",
+    "name": "{{url}}/api/posts",
+    "url": "{{url}}/api/posts",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-11-11T21:59:17.343Z",
+    "modified": "2022-11-11T22:15:28.684Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"data\": {\n    \"titulo\": \"Primer Post desde client\",\n    \"descripcion\": \"Descripcion para posts\",\n    \"slug\": \"algo-de-slug\",\n    \"url_video\": null,\n    \"category\":1,\n    \"user\":1\n  }\n}",
+      "form": []
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token_profe}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "f49f9b86-41b0-45ed-93e3-dc2d72d6f59a",
+    "colId": "history",
+    "containerId": "",
+    "name": "{{url}}/api/posts/8",
+    "url": "{{url}}/api/posts/8",
+    "method": "DELETE",
+    "sortNum": 0,
+    "created": "2022-11-11T22:16:31.638Z",
+    "modified": "2022-11-11T22:16:56.138Z",
+    "headers": [],
+    "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token_profe}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "42d5bd09-eabc-4da4-b293-f76d7380c5a3",
+    "colId": "history",
+    "containerId": "",
+    "name": "{{url}}/api/posts/4",
+    "url": "{{url}}/api/posts/4",
+    "method": "PUT",
+    "sortNum": 0,
+    "created": "2022-11-11T22:25:49.732Z",
+    "modified": "2022-11-11T22:25:49.834Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"data\": {\n    \"titulo\": \"Primer Post desde client\",\n    \"descripcion\": \"Descripcion para posts editado\",\n    \"slug\": \"algo-de-slug\",\n    \"url_video\": null,\n    \"category\":1,\n    \"user\":1\n  }\n}",
+      "form": []
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token_profe}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "99335d87-94cc-4c35-a948-8c7c7241a1d3",
+    "colId": "history",
+    "containerId": "",
+    "name": "{{url}}/api/comentaries",
+    "url": "{{url}}/api/comentaries",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-11-11T22:27:06.422Z",
+    "modified": "2022-11-11T22:43:02.819Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "cea63f17-145d-45e3-8600-576e362e546c",
+    "colId": "history",
+    "containerId": "",
+    "name": "{{url}}/api/comentaries",
+    "url": "{{url}}/api/comentaries",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-11-11T22:27:12.706Z",
+    "modified": "2022-11-11T22:41:37.162Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"data\": {\n    \"comentario\":\"finito comentario\",\n    \"posts\":4,\n    \"users_permissions_user\":1\n  }\n}",
+      "form": []
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token_profe}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "101d8787-92e5-4d61-bae5-13c0ee990bef",
+    "colId": "history",
+    "containerId": "",
+    "name": "{{url}}/api/comentaries/4",
+    "url": "{{url}}/api/comentaries/4",
+    "method": "PUT",
+    "sortNum": 0,
+    "created": "2022-11-11T22:42:31.056Z",
+    "modified": "2022-11-11T22:42:31.092Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"data\": {\n    \"comentario\":\"finito comentario\",\n    \"posts\":4,\n    \"users_permissions_user\":1\n  }\n}",
+      "form": []
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token_profe}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "dfa2079e-9830-4b00-9a24-a7a6368dcc2e",
+    "colId": "history",
+    "containerId": "",
+    "name": "{{url}}/api/comentaries/14",
+    "url": "{{url}}/api/comentaries/14",
+    "method": "PUT",
+    "sortNum": 0,
+    "created": "2022-11-11T22:42:46.465Z",
+    "modified": "2022-11-11T22:42:46.554Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"data\": {\n    \"comentario\":\"comentario Chelo editado\",\n    \"posts\":4,\n    \"users_permissions_user\":1\n  }\n}",
+      "form": []
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token_profe}}"
+    },
+    "tests": []
+  }
+]
